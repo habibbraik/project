@@ -1,0 +1,250 @@
+@media screen and (min-width: 1000px){
+    .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.closing-modal-all {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: brown;
+}
+
+.modal-content {
+    padding: 60px 20px 20px 20px;
+    overflow-y: auto;
+    max-width: calc(90vh - 1rem); /* Adjust to ensure scrollable area */
+
+}
+
+.per-names-det {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.per-names-det h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.inf-det-per {
+        width: 100%;
+}
+
+.inf_det_per_content{
+    width: 100%;
+
+}
+
+.life-per-det {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 47%);
+    column-gap: 6%;
+}
+
+.inf_det_per_content h3 {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #EEEAF87A;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #EEEAF87A;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+.carte-img-nat {
+    margin-top: 20px;
+}
+
+.carte-img-nat-two {
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #EEEAF87A;
+    overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.carte-img-nat-two img {
+    height: 150px;
+    width: 100%;
+}
+/*_____________________________________________*/
+/* ImageModal */
+
+.image-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-modal {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    height: 100%;
+}
+
+.image-modal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+}
+@media screen and (max-width: 999px){
+    .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 100px;
+    max-height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.closing-modal-all {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: brown;
+}
+
+.modal-content {
+    padding: 60px 20px 20px 20px;
+    overflow-y: auto;
+    max-width: calc(90vh - 1rem); /* Adjust to ensure scrollable area */
+
+}
+
+.per-names-det {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.per-names-det h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.inf-det-per {
+}
+
+.life-per-det {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 47%);
+    column-gap: 6%;
+}
+
+.inf_det_per_content h3 {
+    margin-top: 20px;
+    background-color: #EEEAF87A;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.carte-img-nat {
+    margin-top: 20px;
+}
+
+.carte-img-nat-two {
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #EEEAF87A;
+    overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.carte-img-nat-two img {
+    height: 150px;
+    width: 100%;
+}
+/*_____________________________________________*/
+/* ImageModal */
+
+.image-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-modal {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.image-modal img {
+    max-width: 100%;
+    max-height: 100%;
+}
+}

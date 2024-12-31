@@ -1,0 +1,298 @@
+@media screen and (min-width: 1101px){
+    .studients{
+    margin-left: 20%; /* Same width as sidebar */
+    flex: 4;
+
+}
+.iscriptions-header h1{
+    font-size: 36px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}
+.iscriptions-header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    max-width: 60%;
+}
+.content-studient{
+    max-width: 95%;
+    width: 100%;
+    padding-top: 30px;
+    margin: auto;
+}
+.content-inscriptions-details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.inscriptios-details{
+    display: grid;
+    grid-template-columns: 35% 45% 20%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    
+}
+.identity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.identity-img{
+    height: 41px;
+    width: 41px;
+    background-color: #6B6B6B;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.identity-img img{
+    height: 100%;
+    width: 100%;
+}
+.identity h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-transform: capitalize;
+    text-align: start;
+}
+.email-student h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-align: start;
+}
+.studients-buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+.studients-buttons button{
+    height: 33px;
+    width: 93px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.view-studient{
+    background: rgba(50, 79, 198, 1);
+    background: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+}
+.delete-studient{
+    background-color: #B12E5D;
+}
+.studients-buttons button:hover{
+    transform: scale(0.9);
+}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 701px){
+    .studients{
+        margin-top: 70px;
+}
+.iscriptions-header h1{
+    font-size: 36px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}
+.iscriptions-header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    max-width: 80%;
+}
+.content-studient{
+    max-width: 95%;
+    padding-top: 30px;
+    margin: auto;
+}
+.content-inscriptions-details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inscriptios-details{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.identity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.identity-img{
+    height: 41px;
+    width: 41px;
+    background-color: #6B6B6B;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.identity-img img{
+    height: 100%;
+    width: 100%;
+}
+.identity h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-transform: capitalize;
+    text-align: start;
+}
+.email-student h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-align: start;
+}
+.studients-buttons{
+    display: flex;
+    gap: 10px;
+}
+.studients-buttons button{
+    height: 33px;
+    width: 93px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.view-studient{
+    background: rgba(50, 79, 198, 1);
+    background: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+}
+.delete-studient{
+    background-color: #B12E5D;
+}
+.studients-buttons button:hover{
+    transform: scale(0.9);
+}
+}
+
+@media screen and (max-width: 700px) {
+    .studients{
+    margin-top: 70px;
+    }
+    .iscriptions-header h1{
+        font-size: 32px;
+        font-weight: 600;
+        background-image: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: capitalize;
+    }
+    .iscriptions-header p{
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        max-width: 90%;
+    }
+    .content-studient{
+        max-width: 98%;
+        padding-top: 30px;
+        margin: auto;
+    }
+    .content-inscriptions-details{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .inscriptios-details{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-bottom: 10px;
+    
+    }
+    .identity{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+    .identity-img{
+        height: 41px;
+        width: 41px;
+        background-color: #6B6B6B;
+        border-radius: 50%;
+        overflow: hidden;
+        display: none;
+    }
+    .identity-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .identity h3{
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B6B6B;
+        text-transform: capitalize;
+        text-align: start;
+    }
+    .email-student h3{
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B6B6B;
+        text-align: start;
+        display: none;
+    }
+    .studients-buttons{
+        display: flex;
+        gap: 10px;
+    }
+    .studients-buttons button{
+        height: 33px;
+        width: 93px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+    .view-studient{
+        background: rgba(50, 79, 198, 1);
+        background: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+    }
+    .delete-studient{
+        background-color: #B12E5D;
+    }
+    .studients-buttons button:hover{
+        transform: scale(0.9);
+    }
+}

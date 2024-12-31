@@ -1,0 +1,97 @@
+.main-content-card-courses{
+    height: 350px;
+    width: 260px;
+    background-color: #F7F9FF;
+    border-radius: 5px;
+}
+
+.content-main-content-card-courses{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure spacing between the sections */
+}
+
+.header-img-content-card-courses{
+    height: 40%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #E2EAFF;
+}
+
+.middle-content-card-courses{
+    margin-top: 20px;
+}
+
+.category-each-card-courses{
+    width: fit-content;
+    background-color: #6D8DEF;
+    border-radius: 5px;
+}
+
+.category-each-card-courses h4{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 5px 20px;
+}
+
+.title-name-card-courses{
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.title-name-card-courses h2{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+
+}
+
+.middle-content-card-courses p{
+    margin-top: 10px;
+    font-size: 14x;
+    line-height: 18px;
+    font-weight: 400;
+    color: black;
+    opacity: 54%;
+    text-transform: capitalize;
+}
+
+.footer-content-card-courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #E2EAFF;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+.footer-content-card-courses h5{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.footer-content-card-courses a button{
+    background-color: #6D8DEF;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: white;
+}
+
+.footer-content-card-courses a button:hover{
+    background-color: #516bb8;
+}

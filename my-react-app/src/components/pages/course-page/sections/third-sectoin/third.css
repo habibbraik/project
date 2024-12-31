@@ -1,0 +1,121 @@
+@media screen and (min-width: 787px) {
+    .main-third-section-timing-single-course{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    
+    .content-main-third-section-timing-single-course{
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .content-main-third-section-timing-single-course h1{
+        font-size: 40px;
+        font-weight: 600;
+        color: black;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    }
+    
+    .planing-section-single-course{
+        max-width: 80%;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill , 100%);
+        gap: 20px;
+    }
+    
+    .day-timing-table{
+        display: grid;
+        grid-template-columns: repeat(auto-fill , 12.5%);
+        background-color: #F7F9FF;
+        padding: 10px 0;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .time-timing-table{
+        display: grid;
+        grid-template-columns: repeat(auto-fill , 12.5%);
+        background-color: #F7F9FF;
+        padding: 10px 0;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    #p-nes-plan{
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .day-timing-table p{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        text-transform: capitalize;
+    }
+    
+    .time-timing-table p{
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .main-third-section-timing-single-course{
+        width: 100%;
+        padding-top: 70px;
+    }
+
+    .content-main-third-section-timing-single-course{
+        max-width: 95%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content-main-third-section-timing-single-course{
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+    .planing-section-single-course{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 30px;
+        margin-bottom: 200px;
+    }
+
+    .day-timing-table{
+        text-align: left;
+        padding: 10px;
+        width: 40%;
+        background-color: rgba(247, 249, 255, 1);
+    }
+
+    .day-timing-table p{
+        padding-top: 7px;
+    }
+
+    .time-timing-table{
+        text-align: left;
+        padding: 10px;
+        width: 40%;
+        background-color: rgba(247, 249, 255, 1);
+    }
+
+    .time-timing-table p{
+        padding-top: 7px;
+    }
+}

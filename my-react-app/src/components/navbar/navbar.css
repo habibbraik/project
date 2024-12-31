@@ -1,0 +1,312 @@
+@media screen and (min-width: 800px) {
+    .header {
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        transition: background-color 0.3s ease-in;
+        overflow: hidden;
+        background-color: transparent; /* Default background */
+    }
+    
+    
+    .header.scrolled {
+        background-color: rgba(254, 254, 254); /* Background when scrolled */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for design */
+    }
+    
+    .nav-menu li{
+        list-style: none;
+    }
+    
+    .nav-menu a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    
+    }
+    
+    .header.scrolled .nav-menu a {
+        color: #000; /* Change text color if needed */
+        transition: .1s ease-in-out;
+    }
+    
+    .header.scrolled .nav-menu a:hover {
+        color: #000000b6; /* Change text color if needed */
+    }
+    
+    .header .nav-item a {
+        color: #ffffff; /* Default text color */
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .header .nav-item a:hover {
+        color: #e4e4e4; /* Default text color */
+    }
+
+    .header .navbar {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        height: 100%;
+        padding: 0 1rem;
+    }
+    
+    .scrolled .navbar{
+        display: grid;
+        grid-template-columns: 25% 45% 30%;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        height: 100%;
+        padding: 0 1rem;
+    }
+    
+    .scrolled .navbar .nav-menu li{
+        text-align: start;
+    }
+    
+    .header.scrolled .registration-button-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .header.scrolled .registration-button-navbar a{
+        text-decoration: none;
+    }
+    
+    .header.scrolled .registration-button-navbar a button{
+        text-align: right;
+        display: block;
+        visibility: visible;
+        border: none;
+        background-color: #6D8DEF;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 600;
+        width: fit-content;
+        text-align: right;
+        padding: 7px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        text-decoration: none;
+    }
+    
+    .header.scrolled .registration-button-navbar button:hover{
+        background-color: #5673c9;
+    }
+    
+    .header .registration-button-navbar button{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .header .nav-menu a {
+        color: #ffffff;
+    }
+    
+    .header .navbar img {
+        width: 250px;
+        height: auto;
+    }
+    
+    .header .nav-menu {
+        display: flex;
+    }
+    
+    .header .nav-item {
+        padding: 1rem;
+        font-weight: 500;
+    }
+    
+    .header .nav-item a:hover {
+        padding-bottom: 12px;
+        border-bottom: 3px solid var(--secondary-color);
+    }
+    
+    
+    
+    .header .dropdowns-menu{
+        display: none;
+        position: fixed;
+        top: 60px; /* Position below the parent item */
+        left: 40vw;
+        background-color: #ffffff; /* Dropdown background color */
+        list-style: none;
+        padding: 10px 30px;
+        margin: 0;
+        border-radius: 5px;
+        z-index: 10;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        width: fit-content;
+    }
+    
+    .scrolled .dropdowns-menu{
+        display: none;
+        position: fixed;
+        top: 63px; /* Position below the parent item */
+        left: 45vw;
+        background-color: #ffffff; /* Dropdown background color */
+        list-style: none;
+        padding: 10px 30px;
+        margin: 0;
+        border-radius: 5px;
+        z-index: 10;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    .header .galerie-dropdown{
+        display: none;
+        position: fixed;
+        top: 60px; /* Position below the parent item */
+        left: 49vw;
+        background-color: #ffffff; /* Dropdown background color */
+        list-style: none;
+        padding: 10px 30px;
+        margin: 0;
+        text-align: left;
+        border-radius: 5px;
+        z-index: 10;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    
+    .scrolled .galerie-dropdown{
+        display: none;
+        position: fixed;
+        top: 63px; /* Position below the parent item */
+        left: 51vw;
+        background-color: #ffffff; /* Dropdown background color */
+        list-style: none;
+        padding: 10px 50px;
+        margin: 0;
+        text-align: start;
+        border-radius: 5px;
+        z-index: 10;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    
+    .dropdown .dropdowns-menu li{
+        padding: 5px 0;
+    }
+
+    .dropdown .dropdowns-menu li a{
+        color: #000;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .dropdown .dropdowns-menu li a:hover{
+        color: #282828;
+    }
+    
+    .dropdown .galerie-dropdown li a{
+        color: #000;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .dropdown .galerie-dropdown li{
+        padding: 5px 0;
+        text-align: left;
+    }
+
+    .dropdown .galerie-dropdown li a:hover{
+        color: #282828;
+    }
+    
+    
+    .nav-item.dropdown a:hover + .dropdowns-menu,
+    .nav-item.dropdown:hover .dropdowns-menu {
+        display: block;
+    }
+    
+    .nav-item.dropdown a:hover + .galerie-dropdown,
+    .nav-item.dropdown:hover .galerie-dropdown {
+        display: block;
+    }
+    
+    
+    
+    .hamburger {
+        display: none;
+    }
+    
+    
+    
+    
+    @media screen and (max-width:940px) {
+        .header {
+            max-width: 100%;
+            background-color: rgba(0,0,0,.9);
+        }
+    
+        .header .navbar {
+            max-width: 100%;
+        }
+    
+        .hamburger {
+            display: block;
+        }
+    
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 90px;
+            flex-direction: column;
+            background-color: rgba(0,0,0,.9);
+            width: 100%;
+            height: 90vh;
+            z-index: 999;
+            text-align: center;
+            transition: .3s;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+    
+        .nav-item {
+            margin: 1.5rem 0;
+        }
+    
+        .header .navbar img {
+            width: 150px;
+        }
+    }
+
+    .sidebar{
+        display: none;
+        visibility: hidden;
+    }
+
+    .header{
+        display: block;
+        visibility: visible;
+    }
+
+
+    .nav-arr-drop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+    .header{
+        display: none;
+        visibility: hidden;
+    }
+
+    .sidebar{
+        display: block;
+        visibility: visible;
+    }
+}

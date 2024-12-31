@@ -1,0 +1,169 @@
+@media screen and (min-width: 787px) {
+    .main-page-single-course{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content-page-single-course{
+        margin-top: 120px;
+        text-align: center;
+    }
+    
+    .content-page-single-course h1{
+        font-size: 64px;
+        font-weight: 600;
+        color: black;
+        line-height: 84px;
+    }
+    
+    .card-present-information-single-cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        margin-top: 50px;
+    }
+    
+    .card-content-single-cart{
+        padding: 20px;
+        background-color: #F7F9FF;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    #small-icon-place{
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border: none;
+        background-color: cornflowerblue;
+    
+    }
+    
+    #small-icon-place svg{
+        font-size: 20px;
+    }
+    
+    .card-content-single-cart p {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 1);
+    }
+    
+    .card-content-single-cart h3{
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    
+    
+    .content-page-single-course button{
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 10px;
+        border: none;
+        background-color: #6D8DEF;
+        cursor: pointer;
+        margin-top: 60px;
+        transition: .3s ease-in-out;
+    }
+    
+    .content-page-single-course button:hover{
+        background-color: #526dc0;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .main-page-single-course{
+        width: 100%;
+    }
+    .content-page-single-course{
+        max-width: 95%;
+        width: 100%;
+        margin: 90px auto;
+        text-align: center;
+    }
+
+    .content-page-single-course h1{
+        font: 48px;
+        font-weight: 600;
+        line-height: 72px;
+    }
+
+    .card-present-information-single-cart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-content-single-cart{
+        background-color: rgba(247, 249, 255, 1);
+        width: 60%;
+        margin-top: 15px;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #small-icon-place{
+        height: 60px;
+        width: 60px;
+        margin: auto;
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+        background-color: rgba(109, 141, 239, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 24px;
+    }
+
+    .content-content-card p{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .content-content-card h3{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .content-page-single-course button{
+        margin-top: 40px;
+        padding: 6px 10px;
+        border-radius: 5px;
+        width: 60%;
+        border: none;
+        background-color: rgba(109, 141, 239, 1);
+        color: white;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+}

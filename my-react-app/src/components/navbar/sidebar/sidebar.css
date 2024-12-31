@@ -1,0 +1,260 @@
+@media screen and (min-width: 500px) {
+
+  .par-button-toggle-sidebar{
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(226, 234, 255, 1);
+    z-index: 1200;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease;
+    z-index: 1900;
+    overflow-y: auto;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .sidebar-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 15px;
+  }
+  
+  .sidebar-menu li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    transition: .3s ease-in-out;
+  }
+  
+  .sidebar-menu li a:hover {
+    padding-left: 5px;
+  }
+  
+  .sidebar-toggle {
+    border: none;
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 34px;
+    cursor: pointer;
+    z-index: 1400;
+  }
+
+  .sidebar-toggle svg:hover{
+    transition: .3s ease-in-out;
+    transform: rotate(20deg);
+  }
+  
+  .dropdown .dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .register-btn {
+    background-color: #6D8DEF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+  }
+
+
+  .register-btn:hover {
+    background-color: #5c7ad6;
+  }
+  
+
+  .child-dropdown-toggle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .child-dropdown-toggle svg{
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 499px) {
+
+  .par-button-toggle-sidebar{
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(226, 234, 255, 1);
+    z-index: 1200;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease;
+    z-index: 1900;
+    overflow-y: auto;
+  }
+  
+  .sidebar.open {
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .sidebar-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 15px;
+  }
+  
+  .sidebar-menu li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    transition: .3s ease-in-out;
+  }
+  
+  .sidebar-menu li a:hover {
+    padding-left: 5px;
+  }
+  
+  .sidebar-toggle {
+    border: none;
+    margin-left: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 34px;
+    cursor: pointer;
+    z-index: 1400;
+
+
+  }
+  
+  .dropdown .dropdown-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .register-btn {
+    background-color: #6D8DEF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+  }
+
+
+  .register-btn:hover {
+    background-color: #5c7ad6;
+  }
+  
+
+  .child-dropdown-toggle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .child-dropdown-toggle svg{
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+
+}

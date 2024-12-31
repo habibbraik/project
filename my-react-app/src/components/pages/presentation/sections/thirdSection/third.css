@@ -1,0 +1,184 @@
+@media screen and (min-width: 787px) {
+    .main-cards-presentation{
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    .content-main-cards-presentation{
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .h1-title-cards-presentation{
+        text-align: center;
+        font-size: 80px;
+        font-family: "Host Grotesk";
+        font-weight: 800;
+        color: #484848;
+        text-transform: capitalize;
+    }
+    
+    .cards-presentation{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 4%;
+        row-gap: 20px;
+        margin: 50px auto;
+    }
+    
+    .single-card-presentation{
+        cursor: pointer;
+        background-color: #F6F9FF;
+        padding: 10px 10px 30px 10px;
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.7s ease;
+        transform-origin: center;
+        border-radius: 5px;
+    }
+    
+    .single-card-presentation h1{
+        font-size: 64px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 700;
+        color: #6D8DEF;
+    }
+    
+    .single-card-presentation h3{
+        font-size: 20px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 700;
+        color: #FFFFFF;
+        background-color: #6D8DEF;
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .single-card-presentation p{
+        max-width: 80%;
+        width: 100%;
+        font-size: 12px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 400;
+        color: #696969;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+    
+    .single-card-presentation h1,
+    .single-card-presentation h3,
+    .single-card-presentation p{
+        transition: color .3s ease-in-out;
+    }
+    
+    .single-card-presentation:hover{
+        background-color: #252525;
+        padding: 10px 10px 20px 10px;
+        transform: rotate(-2deg);
+        
+    }
+    
+    .single-card-presentation:hover h1{
+        color: #505050;
+    }
+    
+    .single-card-presentation:hover h3{
+        color: white;
+        background-color: #454545;
+    }
+    
+    .single-card-presentation:hover p{
+        color: white;
+    }
+    
+}
+
+@media screen and (max-width: 786px) {
+    .main-cards-presentation{
+        margin-top: 80px;
+    }
+
+    .content-main-cards-presentation{
+        text-align: start;
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .h1-title-cards-presentation{
+        font-size: 36px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 800;
+        color: #484848;
+    }
+
+    .cards-presentation{
+        margin: 80px 0;
+    }
+
+    .single-card-presentation{
+        width: 100%;
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: #F6F9FF;
+        padding: 10px 10px 30px 10px;
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.7s ease;
+        transform-origin: center;
+        border-radius: 5px;
+    }
+
+    .single-card-presentation h1{
+        font-size: 48px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 700;
+        color: #6D8DEF;
+    }
+    
+    .single-card-presentation h3{
+        font-size: 20px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 700;
+        color: #FFFFFF;
+        background-color: #6D8DEF;
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .single-card-presentation p{
+        max-width: 80%;
+        width: 100%;
+        font-size: 12px;
+        font-family: "Host Grotesk" , serif;
+        font-weight: 400;
+        color: #696969;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+
+    .single-card-presentation h1,
+    .single-card-presentation h3,
+    .single-card-presentation p{
+        transition: color .3s ease-in-out;
+    }
+    
+    .single-card-presentation:hover{
+        background-color: #252525;
+        padding: 10px 10px 20px 10px;
+        transform: rotate(-2deg);
+        
+    }
+    
+    .single-card-presentation:hover h1{
+        color: #505050;
+    }
+    
+    .single-card-presentation:hover h3{
+        color: white;
+        background-color: #454545;
+    }
+    
+    .single-card-presentation:hover p{
+        color: white;
+    }
+}

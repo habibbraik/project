@@ -1,0 +1,186 @@
+@media screen and (min-width: 787px) {
+    .main-section-four-home-page{
+        height: fit-content;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .content-main-section-four-home-page{
+        max-width: 70%;
+        width: 100%;
+        height: 70vh;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    
+    .cote-section-information h2{
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 60px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+    
+    .cote-section-information h2 span{
+        background-color: #6D8DEF;
+        color: white;
+        padding: 0px 5px;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .numero-section-four-home-page{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .number-title-each-line{
+        width: 90px;
+    }
+    
+    .number-title-each-line h1{
+        font-size: 80px;
+        font-weight: bolder;
+    }
+    
+    .number-title-each-line{
+        margin-bottom: 15px;
+    }
+    
+    .number-one h1{
+        color: #6D8DEF;
+    }
+    
+    .number-two h1 , .number-three h1{
+        color: #d9e3fd;
+    }
+    
+    .number-one .content-numero-section{
+        padding: 10px 10px;
+        border-left: 2px solid #6D8DEF;
+    }
+    
+    .number-two .content-numero-section{
+        padding: 10px 10px;
+        border-left: 2px solid #d9e3fd;
+    }
+    
+    .number-three .content-numero-section{
+        padding: 10px 10px;
+        border-left: 2px solid #d9e3fd;
+    }
+    
+    .content-numero-section h4{
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .content-numero-section p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 290px;
+        color: #112358;
+    }
+    
+    .second-cote-image-represent{
+        height: 100%;
+        width: 100%;
+        border: 5px solid rgb(196, 196, 196);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .second-cote-image-represent img{
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .main-section-four-home-page{
+        width: 100%;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .content-main-section-four-home-page{
+        max-width: 95%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .cote-section-information h2{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .cote-section-information span{
+        background-color: #6D8DEF;
+        padding: 2px 7px;
+        border-radius: 5px;
+    }
+
+    .numero-valeur-section-four-home-page{
+        margin-top: 30px;
+    }
+
+    .numero-section-four-home-page{
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .number-title-each-line h1{
+        width: 60px;
+        font-size: 58px;
+        color: rgba(226, 234, 255, 1);
+    }
+
+    .number-one .number-title-each-line h1{
+        color: rgba(109, 141, 239, 1);
+    }
+
+    .number-one .content-numero-section{
+        border-left: 3px rgba(109, 141, 239, 1) solid ;
+    }
+
+    .content-numero-section{
+        border-left: 3px solid rgba(226, 234, 255, 1);
+        padding-left: 5px;
+    }
+
+    .content-numero-section p{
+        font-size: 15px;
+    }
+
+    .numero-section-four-home-page{
+        margin-top: 15px;
+        padding: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .second-cote-image-represent{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 50px;
+        height: 40vh;
+        border-radius: 5px;
+    }
+
+    .second-cote-image-represent img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+}

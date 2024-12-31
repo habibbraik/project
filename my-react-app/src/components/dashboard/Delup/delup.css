@@ -1,0 +1,571 @@
+@media screen and (min-width: 1101px){
+    .studients_DU{
+    margin-left: 20%; /* Same width as sidebar */
+    flex: 4;
+
+}
+.iscriptions-header_DU h1{
+    font-size: 36px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}
+.dash-search-divide_DU{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+.first-part-dash-ud{
+    width: 100%;
+}
+.first-part-dash-ud p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    max-width: 90%;
+}
+#level_parameter{
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+}
+.cote-searsh-dash{
+    width: 40%;
+}
+.search-form-dash{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(50, 79, 198, 1);
+    overflow: hidden;
+}
+.search-form-dash input{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 5px 0 7px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins' , sans-serif;
+}
+.search-form-dash button{
+    width: fit-content;
+    border: none;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(50, 79, 198, 1);
+}
+.content-studient_DU{
+    max-width: 95%;
+    padding-top: 30px;
+    margin: auto;
+}
+.content-inscriptions-details{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inscriptios-details-se{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+
+}
+.identity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.identity-img{
+    height: 41px;
+    width: 41px;
+    background-color: #6B6B6B;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.identity-img img{
+    height: 100%;
+    width: 100%;
+}
+.identity h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-transform: capitalize;
+    text-align: start;
+}
+.email-student h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B6B6B;
+    text-align: start;
+}
+.cat-inden{
+    display: flex;
+    justify-content: start;
+}
+.cat-inden p{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.students-buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+
+}
+/* .students-buttons button{
+    height: 33px;
+    width: 93px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+} */
+.view-student{
+    transition: 0.3s ease-in-out;
+    color: rgba(50, 79, 198, 1);
+    /* background: linear-gradient(90deg, rgba(89,66,199,1) 0%, rgba(157,117,245,1) 100%); */
+    background: transparent;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+.view-student:hover{
+    transform: rotate(90deg);
+}
+.delete-student{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    
+}
+.delete-student:hover{
+    transform: rotate(15deg);
+}
+/* .studients-buttons button:hover{
+    transform: scale(0.9);
+} */
+
+.nodata-available{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-data-dup img{
+    height: 350px;
+    width: 400px;
+}
+.no-data-dup h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.space-loader-content{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space-loader-content_statistique{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nodata-available-for{
+    margin: 30px 0;
+}  
+
+.no-data-dup-for img{
+    height: 350px;
+    width: 400px;
+}
+.no-data-dup-for h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 1100px) and (min-width: 800px){
+    .studients_DU{
+        margin-left: 0; /* Same width as sidebar */
+    }
+    .iscriptions-header_DU h1{
+        font-size: 36px;
+        font-weight: 600;
+        background-image: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: capitalize;
+    }
+    .dash-search-divide_DU{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        width: 100%;
+    }
+    .first-part-dash-ud{
+        width: 100%;
+    }
+    .first-part-dash-ud p{
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        max-width: 90%;
+    }
+    .cote-searsh-dash{
+        width: 40%;
+    }
+    .search-form-dash{
+        display: flex;
+        align-items: center;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid rgba(50, 79, 198, 1);
+        overflow: hidden;
+    }
+    .search-form-dash input{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 0 5px 0 7px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins' , sans-serif;
+    }
+    .search-form-dash button{
+        width: fit-content;
+        border: none;
+        padding: 0 0 0 5px;
+        cursor: pointer;
+        background: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(50, 79, 198, 1);
+    }
+    .content-studient_DU{
+        max-width: 95%;
+        padding-top: 30px;
+        margin: auto;
+    }
+    .content-inscriptions-details{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .inscriptios-details-se{
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 20px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 7px 15px;
+    
+    }
+    .identity{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+    .identity-img{
+        height: 41px;
+        width: 41px;
+        background-color: #6B6B6B;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .identity-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .identity h3{
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B6B6B;
+        text-transform: capitalize;
+        text-align: start;
+    }
+    .email-student h3{
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B6B6B;
+        text-align: start;
+    }
+    .cat-inden{
+        display: flex;
+        justify-content: start;
+    }
+    .cat-inden p{
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .students-buttons{
+        display: flex;
+        gap: 15px;
+        justify-content: end;
+    
+    }
+    /* .students-buttons button{
+        height: 33px;
+        width: 93px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    } */
+    .view-student{
+        transition: 0.3s ease-in-out;
+        color: rgba(50, 79, 198, 1);
+        /* background: linear-gradient(90deg, rgba(89,66,199,1) 0%, rgba(157,117,245,1) 100%); */
+        background: transparent;
+        font-size: 22px;
+        border: none;
+        cursor: pointer;
+    }
+    .view-student:hover{
+        transform: rotate(90deg);
+    }
+    .delete-student{
+        background-color: transparent;
+        border: none;
+        color: red;
+        font-size: 22px;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        
+    }
+    .delete-student:hover{
+        transform: rotate(15deg);
+    }
+    /* .studients-buttons button:hover{
+        transform: scale(0.9);
+    } */
+    
+    .nodata-available{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .no-data-dup img{
+        height: 280px;
+        width: 400px;
+    }
+    .no-data-dup h3{
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .space-loader-content{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .space-loader-content_statistique{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .studients_DU{
+    margin-top: 70px;
+    }
+    .iscriptions-header_DU h1{
+        font-size: 24px;
+        font-weight: 600;
+        background-image: linear-gradient(90deg, rgba(50, 79, 198, 1) 0%, rgba(50, 79, 198, 1) 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: capitalize;
+    }
+    .dash-search-divide_DU{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .first-part-dash-ud p{
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        max-width: 90%;
+    }
+    .cote-searsh-dash{
+        width: 100%;
+    }
+    .search-form-dash{
+        display: flex;
+        align-items: center;
+        height: 35px;
+        width: 100%;
+        border-radius: 10px;
+        border: 2px solid rgba(50, 79, 198, 1);
+        overflow: hidden;
+    }
+    .search-form-dash input{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: none;
+        outline: none;
+        padding: 0 5px 0 7px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins' , sans-serif;
+    }
+    .search-form-dash button{
+        width: fit-content;
+        border: none;
+        padding: 0 0 0 5px;
+        cursor: pointer;
+        background: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgba(50, 79, 198, 1);
+    }
+    .content-studient_DU{
+        max-width: 98%;
+        padding-top: 30px;
+        margin: auto;
+    }
+    .content-inscriptions-details{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .inscriptios-details-se{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,40% 30% 15%);
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-bottom: 10px;
+    
+    }
+    .identity{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+    .identity-img{
+        height: 41px;
+        width: 41px;
+        background-color: #6B6B6B;
+        border-radius: 50%;
+        overflow: hidden;
+        display: none;
+    }
+    .identity-img img{
+        height: 100%;
+        width: 100%;
+    }
+    .identity h3{
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B6B6B;
+        text-transform: capitalize;
+        text-align: start;
+    }
+    .email-student h3{
+        font-size: 16px;
+        font-weight: 600;
+        color: #6B6B6B;
+        text-align: start;
+        display: none;
+    }
+    .students-buttons{
+        display: flex;
+        gap: 10px;
+    }
+    /* .students-buttons button{
+        height: 33px;
+        width: 93px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    } */
+    .view-student{
+        transition: 0.3s ease-in-out;
+        color: rgba(50, 79, 198, 1);
+        /* background: linear-gradient(90deg, rgba(89,66,199,1) 0%, rgba(157,117,245,1) 100%); */
+        background: transparent;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+    .view-student:hover{
+        transform: rotate(90deg);
+    }
+    .delete-student{
+        background-color: transparent;
+        border: none;
+        color: red;
+        font-size: 18px;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        
+    }
+    .delete-student:hover{
+        transform: rotate(15deg);
+    }
+}

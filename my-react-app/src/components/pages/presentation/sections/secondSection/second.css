@@ -1,0 +1,87 @@
+@media screen and (min-width: 787px) {
+    .main-second-presentation{
+        margin-top: 180px;
+    }
+    
+    .content-main-second-presentation{
+        max-width: 90%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 65% 30%;
+        height: 80vh;
+        column-gap: 5%;
+        margin: auto;
+    }
+    
+    .para-content-second-presentation{
+        height: auto;
+    }
+    
+    .para-content-second-presentation h1{
+        font-size: 64px;
+        font-family: "Host Grotesk";
+        font-weight: 800;
+        text-transform: capitalize;
+        color: #484848;
+    }
+    
+    .para-content-second-presentation p{
+        margin-top: 60px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #000000A6;
+        font-family: "Host Grotesk";
+        line-height: 31px;
+    }
+    
+    .img-second-presentation{
+        overflow: hidden;
+        height: auto;
+    }
+    
+    .img-second-presentation img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .main-second-presentation{
+        margin-top: 120px;
+    }
+
+    .content-main-second-presentation{
+        max-width: 90%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .para-content-second-presentation h1{
+        font-size: 34px;
+        font-weight: 800;
+        font-family: "Host Grotesk";
+        color: #484848;
+    }
+
+    .para-content-second-presentation p{
+        margin-top: 40px;
+        font-size: 20px;
+        font-family: "Host Grotesk";
+        font-weight: 400;
+        color: #000000A6;
+        line-height: 31px;
+    }
+
+    .img-second-presentation{
+        overflow: hidden;
+        margin-top: 70px;
+        height: 40vh;
+        border-radius: 10px;
+    }
+
+    .img-second-presentation img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}

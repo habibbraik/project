@@ -1,0 +1,203 @@
+@media screen and (min-width: 787px) {
+    .main-content-contact-page{
+        height: 100vh;
+    }
+    
+    .content-con-contact{
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    
+    .content-full-text-first-contact{
+        height: 60%;
+        padding-top: 90px;
+        background-color: #F7F9FF;
+    }
+    
+    .con-text-contact-first-sec{
+        height: 65%;
+        padding-top: 30px;
+        background-color: #F7F9FF;
+        max-width: 85%;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .contect-addr-con-contact-sec-section{
+        height: 35%;
+        max-width: 85%;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .content-img-con-contact-os-section{
+        height: 77vh;
+        width: 23%;
+        position: absolute;
+        top: 52%;
+        left: 80%;
+        transform: translate(-50% , -50%);
+        border: 0 solid #6D8DEF;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        border-color: #6D8DEF;
+        padding: 10px;
+        border-top-left-radius: 180px;
+        border-top-right-radius: 180px;
+    }
+    
+    .content-img-con-contact-os-section img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 180px;
+        border-top-right-radius: 180px;
+    }
+    
+    .con-text-contact-first-sec h1{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 72px;
+        text-transform: uppercase;
+    }
+    
+    .con-text-contact-first-sec p{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        max-width: 50%;
+    }
+    
+    .contect-addr-con-contact-sec-section{
+        display: flex;
+        justify-content: start;
+        gap: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .netw-con-sec-contact{
+        text-align: center;
+        height: fit-content;
+        
+    }
+    
+    .netw-con-sec-contact-content{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #con-contact-net{
+        height: 70px;
+        width: 70px;
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+        background-color: #6D8DEF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    #con-contact-net svg{
+        font-size: 29px;
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .netw-con-sec-contact p{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .main-content-contact-page{
+        width: 100%;
+    }
+
+    .content-con-contact{
+        max-width: 95%;
+        width: 100%;
+    }
+
+    .content-full-text-first-contact{
+        width: 100%;
+    }
+
+    .con-text-contact-first-sec{
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .con-text-contact-first-sec h1{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+
+    .con-text-contact-first-sec p{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 22.5px;
+    }
+
+    .content-img-con-contact-os-section{
+        display: none;
+        visibility: hidden;
+    }
+
+
+    .contect-addr-con-contact-sec-section{
+        max-width: 95%;
+        width: 100%;
+        margin: 60px auto 40px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .netw-con-sec-contact{
+        background-color: rgba(247, 249, 255, 1);
+        border-radius: 10px;
+        padding: 20px;
+        width: 50vw;
+        height: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .netw-con-sec-contact-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .netw-con-sec-contact p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+    }
+
+    #con-contact-net{
+        padding: 15px 20px 10px 20px;
+        background-color: rgba(109, 141, 239, 1);
+        border-top-left-radius: 70px;
+        border-top-right-radius: 70px;
+    }
+
+    #con-contact-net span{
+        color: white;
+        font-size: 30px;
+    }
+
+
+}

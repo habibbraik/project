@@ -1,0 +1,327 @@
+@media screen and (min-width:1101px)
+{.mainSidebarContainer {
+    position: fixed; /* Ensure the sidebar remains fixed while scrolling */
+    top: 0;
+    left: 0;
+    width: 20%; /* Specify a fixed width for the sidebar */
+    background-color: rgba(247, 249, 255, 1);
+    height: 100vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-admin{
+    display: none;
+}
+.sidebarIconsAdmin img{
+    height: 80px;
+    width: 40px;
+}
+.mainSidebarContainer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 242, 242, 0.862); /* Adjust the opacity to control darkness */
+    z-index: 1;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.mainSidebarContainer > *{
+    position: relative;
+    z-index: 2;
+}
+
+.content-sidebare {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 60% 10%;
+}
+
+.ulContainer {
+    margin-top: 3.5rem;
+    width: 100%;
+}
+.ulContainer img{
+    height: 25px;
+    width: 25px;
+}
+
+.liContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the start (left) */
+    margin-top: 10px;
+    width: 80%;
+    margin: auto; /* Ensure the space appears on the left */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    gap: 10px;
+}
+.clickedli{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the start (left) */
+    margin-top: 10px;
+    width: 80%;
+    margin: auto; /* Ensure the space appears on the left */
+    border: none;
+    padding: 5px 10px;
+    gap: 10px;
+    background-color: rgb(46, 108, 255);
+    border-radius: 15px;
+}
+.clickedli a.active{
+    text-decoration: none;
+    color: white;
+}
+.liContainer a {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.561);
+}
+/* .clickedli a {
+   
+    text-align: start;
+} */
+
+.sidebarIconsDas {
+    height: 25px;
+    width: 25px;
+}
+.clickedLink{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgba(109, 141, 239, 1);
+    text-decoration: none;
+}
+.ItemsNames {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.return-admin-link-container a{
+    text-decoration: none;
+}
+
+.AdminTitle {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.AdminTitle h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+}
+
+.AdminTitle img {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
+}
+@media screen and (max-width: 1100px) and (min-width: 800px) {
+    .mainSidebarContainer {
+        /* position: fixed; 
+        top: 0;
+        left: 0;
+        width: 20%; 
+        display: none;
+        background: url(../../../../public/images/dashboard.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; */
+        display: none;
+    }
+    .navbar-admin{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        height: 70px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        z-index: 1000;
+    }
+    .navbar-hide-dash{
+        display: none;
+        visibility: hidden;
+    }
+    .content-navbar-admin{
+        max-width: 90%;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-admin h3{
+        text-transform: uppercase;
+        color: rgba(109, 141, 239, 1);
+        font-size: 24px;
+        font-weight: bolder;
+        font-family: 'Poppins' , sans-serif;
+    }
+    .fabars-admin button{
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width : 799px) {
+    .mainSidebarContainer {
+        display: none;
+    }
+    .navbar-admin{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        height: 70px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        z-index: 1000;
+    }
+    .navbar-hide-dash{
+        display: none;
+        visibility: hidden;
+    }
+    .content-navbar-admin{
+        max-width: 90%;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-admin h3{
+        text-transform: uppercase;
+        color: rgba(109, 141, 239, 1);
+        font-size: 24px;
+        font-weight: bolder;
+        font-family: 'Poppins' , sans-serif;
+    }
+    .fabars-admin button{
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .content-sidebare {
+        width: 100%;
+        
+    }
+    
+    .ulContainer {
+        margin-top: 4.5rem;
+        width: 100%;
+    }
+    .ulContainer img{
+        height: 15px;
+        width: 15px;
+    }
+    
+    .liContainer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Align content to the start (left) */
+        margin-top: 10px;
+        width: 80%;
+        margin-left: auto; /* Ensure the space appears on the left */
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        gap: 10px;
+    }
+    .clickedli{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Align content to the start (left) */
+        margin-top: 10px;
+        width: 80%;
+        margin-left: auto; /* Ensure the space appears on the left */
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        gap: 10px;
+        background-color: rgb(255, 255, 255);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: rgba(109, 141, 239, 1);
+    }
+    
+    .liContainer a {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: start;
+    }
+    /* .clickedli a {
+       
+        text-align: start;
+    } */
+    
+    .sidebarIconsDas {
+        height: 25px;
+        width: 25px;
+    }
+    .clickedLink{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        color: rgba(109, 141, 239, 1);
+    }
+    .ItemsNames {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .AdminTitle {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .AdminTitle h4 {
+        font-size: 36px;
+        font-weight: 600;
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .AdminTitle img {
+        height: 100px;
+        width: 100px;
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+

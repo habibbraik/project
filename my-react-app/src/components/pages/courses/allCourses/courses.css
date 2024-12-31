@@ -1,0 +1,377 @@
+@media screen and (min-width: 787px) {
+    .main-content-courses-all-page{
+        height: auto;
+        width: 100%;
+        margin-bottom: 200px;
+        margin-top: 70px;
+    }
+
+    .content-main-courses-all-page{
+        height: 100%;
+        max-width: 80%;
+        width: 100%;
+        margin: auto;
+    }
+    .active-category {
+        font-weight: bold;
+        color: #007bff; /* Change this to match your design */
+        border-bottom: 2px solid #007bff; /* Optional: Add an underline */
+      }
+    .header-content-main-courses-all-page{
+        text-align: center;
+    }
+
+    .header-content-main-courses-all-page h1{
+        font-size: 150px;
+        font-weight: 700;
+        /* line-height: 270px; */
+        color: #EAEFFF;
+        text-transform: capitalize;
+    }
+
+    .category-content-main-courses-all-page{
+        text-align: center;
+    }
+
+    .all-content-categories-courses{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .categories-courses-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .all-content-categories-courses li{
+        list-style: none;
+        cursor: pointer;
+        padding: 5px 15px;
+        background-color: #E2EAFF;
+        border-radius: 10px;
+    }
+
+    .cards-courses-all-content{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 260px);
+        gap: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 786px) {
+    .main-content-courses-all-page{
+        height: auto;
+        padding-top: 90px;
+        width: 100%;
+    }
+
+    .content-main-courses-all-page{
+        max-width: 95%;
+        width: 100%;
+        margin: auto;
+    }
+    .active-category {
+        font-weight: bold;
+        color: #007bff;
+        cursor: pointer;
+      }
+    .header-content-main-courses-all-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-content-main-courses-all-page h1{
+        font-size: 36px;
+        text-transform: capitalize;
+        line-height: 96px;
+        color: rgba(234, 239, 255, 1);
+    }
+
+    .category-content-main-courses-all-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .all-content-categories-courses{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .categories-courses-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .all-content-categories-courses li{
+        list-style: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgba(226, 234, 255, 1);
+        cursor: pointer;
+    }
+
+    .cards-courses-all-content{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
+/*===============================================*/
+
+@media screen and (min-width: 676px) {
+    
+    .category-section {
+        height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 80vw;
+    border-radius: 30px;
+    padding: 35px;
+    position: relative;
+}
+
+.wrapper .icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.icon:first-child {
+    left: 0;
+    background: linear-gradient(90deg, #F9F9F9 70%, transparent);
+}
+
+.icon:last-child {
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(-90deg, #F9F9F9 70%, transparent);
+}
+
+.icon svg {
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #2A138A;
+    cursor: pointer;
+}
+
+.icon svg:hover {
+    transition: 0.3s;
+    background-color: #efedfb;
+}
+
+.icon:first-child svg {
+    margin-left: 15px;
+}
+
+.icon:last-child svg {
+    margin-right: 15px;
+}
+
+.wrapper .tabs-box {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+.tabs-box .tab {
+    white-space: nowrap;
+    background: #EDEDED;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabs-box .tab button{
+    background: transparent;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.tabs-box{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.tabs-box .tab{
+    color: black;
+}
+.hide-icon{
+    display: none;
+    opacity: 0;
+}
+.tabs-box .activedcat {
+    white-space: nowrap;
+    background: #EDEDED;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabs-box .activedcat button{
+    background: rgba(109, 141, 239, 1);
+    background: linear-gradient(90deg, rgba(109, 141, 239, 1) 0%, rgba(109, 141, 239, 1) 100%);
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+}
+@media screen and (max-width: 675px) {
+    .category-section {
+        height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 90vw;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+}
+
+.wrapper .icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    /* z-index: 1; */
+}
+
+.icon:first-child {
+    left: 0;
+    background: linear-gradient(0deg, #F9F9F9 0%, transparent);
+}
+
+.icon:last-child {
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(0deg, #F9F9F9 0%, transparent);
+}
+
+.icon svg {
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    /* line-height: 55px; */
+    border-radius: 50%;
+    font-size: 20px;
+    color: #2A138A;
+    cursor: pointer;
+}
+
+.icon svg:hover {
+    transition: 0.3s;
+    background-color: #efedfb;
+}
+
+.icon:first-child svg {
+    margin-left: 15px;
+}
+
+.icon:last-child svg {
+    margin-right: 15px;
+}
+
+.wrapper .tabs-box {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+
+.tabs-box .tab {
+    white-space: nowrap;
+    background: #EDEDED;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabs-box .tab button{
+    background: transparent;
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.tabs-box{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.tabs-box .tab{
+    color: black;
+}
+.hide-icon{
+    display: none;
+    opacity: 0;
+}
+.tabs-box .activedcat {
+    white-space: nowrap;
+    background: #EDEDED;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabs-box .activedcat button{
+    background: rgba(109, 141, 239, 1);
+    background: linear-gradient(90deg, rgba(109, 141, 239, 1) 0%, rgba(109, 141, 239, 1) 100%);
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+}
